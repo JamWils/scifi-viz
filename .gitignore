@@ -9,6 +9,7 @@ houdini.env
 *.log
 
 # Cache directories
+geo/backup/
 render/
 flip/
 sim/
