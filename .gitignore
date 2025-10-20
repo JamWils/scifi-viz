@@ -1,0 +1,29 @@
+# Houdini temporary files
+*.lock
+*.bakup
+*.bak_*
+*.backup*
+
+# Houdini preference files
+houdini.env
+*.log
+
+# Cache directories
+geo/
+render/
+flip/
+sim/
+cache/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
