@@ -25,3 +25,5 @@ This repository uses Git LFS to manage large asset files. The following file typ
 
 - **Inclination**: The angle between the orbital plane and Earth's equator, measured in degrees (0° to 180°). 0° is equatorial, 90° is polar, >90° is retrograde.
 - **Period**: The time it takes for a satellite to complete one full orbit around Earth, measured in minutes.
+- **Perigee**: The point in an elliptical orbit where the satellite is closest to Earth, measured in kilometers.
+- **Apogee**: The point in an elliptical orbit where the satellite is farthest from Earth, measured in kilometers.
