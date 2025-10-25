@@ -13,6 +13,10 @@ This repository uses Git LFS to manage large asset files. The following file typ
 - **Video**: `.mp4`, `.mov`, `.avi`
 - **Datasets**: CSV files in the `datasets/` folder
 
+## Earth Textures
+
+This project requires some pictures from https://planetpixelemporium.com.  I do not have permission to redistribute these images so you will need to purchase your own license and get the photos or find an equivalent solution and use them in the provided Houdini project.
+
 ## Satellite Data Definitions
 
 ### Orbit Classes
