@@ -13,6 +13,40 @@ This repository uses Git LFS to manage large asset files. The following file typ
 - **Video**: `.mp4`, `.mov`, `.avi`
 - **Datasets**: CSV files in the `datasets/` folder
 
+### Cloning the Repository
+
+To properly clone this repository and download all Git LFS files:
+
+1. **Install Git LFS** (if not already installed):
+   ```bash
+   # macOS (using Homebrew)
+   brew install git-lfs
+
+   # Windows (using Chocolatey)
+   choco install git-lfs
+
+   # Linux (Debian/Ubuntu)
+   sudo apt-get install git-lfs
+   ```
+
+2. **Initialize Git LFS**:
+   ```bash
+   git lfs install
+   ```
+
+3. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   ```
+   Git LFS will automatically download all tracked files during the clone.
+
+4. **If you already cloned without Git LFS**, pull the LFS files:
+   ```bash
+   git lfs pull
+   ```
+
+You can verify that LFS files were downloaded correctly by checking file sizes. LFS pointer files are only a few bytes, while actual asset files should be their full size.
+
 ## Earth Textures
 
 This project requires some pictures from https://planetpixelemporium.com.  I do not have permission to redistribute these images so you will need to purchase your own license and get the photos or find an equivalent solution and use them in the provided Houdini project.
